@@ -1,0 +1,41 @@
+{
+  "name": "tagcly",
+  "version": "1.0.0",
+  "description": "A smart collar health monitoring system for pets",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "backend": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrbadMiro/TagCly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrbadMiro/TagCly/issues"
+  },
+  "homepage": "https://github.com/MrbadMiro/TagCly#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "mqtt": "^5.13.0",
+    "multer": "^1.4.5-lts.2",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}
